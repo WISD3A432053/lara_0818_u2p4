@@ -32,15 +32,15 @@
 <body>
 
 <!-- Navigation -->
+@include('layouts.partials.navigation')
 
-
-
+@yield('content')
 
 
 <hr>
 
 <!-- Footer -->
-
+@include('layouts.partials.footer')
 <!-- jQuery -->
 <script src="{{asset('js/jquery.min.js')}}"></script>
 <!-- Bootstrap Core JavaScript -->
