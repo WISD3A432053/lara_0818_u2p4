@@ -9,8 +9,8 @@ class PostsController extends Controller
     public  function index(){
         return view('index');
     }
-    public  function show(){
-        return view('show');
+    public  function post(){
+        return view('post');
     }
     public  function about(){
         return view('about');
